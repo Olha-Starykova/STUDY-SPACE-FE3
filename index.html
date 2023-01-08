@@ -19,6 +19,11 @@
                 <img class="img-logo-zub" src="./img/ZubMobile1.svg" title="logo" alt="logo">
                 <h4 class="title-logo">DR.  Nikota  Tesla<span>dentist</span> </h4> 
            </div>
+           <div class="burger">
+                <span class="line line--1"></span>
+                <span class="line line--2"></span>
+                <span class="line line--3"></span>
+           </div>
             <ul class="block-nav">
             <li class="items" >
                 <a href="#">Main</a></li>
@@ -29,13 +34,13 @@
             </ul>
             <div class="flex-column">
                 <div class="block-phone">          
-                    <img class="phone-svg" src="./img/phone-in-talk.svg" title="tel" alt="tel">
-        
+                    <!-- <img class="phone-svg" src="./img/phone-in-talk.svg" title="tel" alt="tel"> -->
+ 
                     <a class="title-phone" href="tel:%2B380999999">+38 (099) 999-99-99</a>
                 </div>
                <ul class="language flex ">
                 <li><b>UA</b></li>
-                <li>|</li>
+                <!-- <li>|</li> -->
                 <li>EN</li>
                </ul>
             </div>
@@ -43,7 +48,8 @@
     </header>
         <main class="main-container">
             <section class="section-main">
-                    <div class="main-block">
+                <div class="main-animation">              
+                     <div class="main-block">
                         <h1 class="main-title">Professionan <br> and painless <br><span class="color">treatment of teeth</span></h1>
                         <span class="main-text">I will conduct a complete diagnosis of the oral cavity and build an individual treatment plan. Call and get a completely free consultation </span>
                     </div>
@@ -56,6 +62,8 @@
                             <a class="linc-services" href="#">Services</a>
                         </div>
                         </div>
+                    </div>
+ 
                 </section>
 
                 <section class="card-container">
@@ -79,7 +87,7 @@
                     </div>
                 </section>
 
-             <section >
+             <section class="container">
             <div class="main-section">
                 <h1 class="main-section-title">WHY YOU SHOULD CHOOSE <span class="color-span">EXACTLY ME?</span>  </h1>
                 <span class="professional-paragraph"> Over 15 years of professional experience! More than 2000 people have used my <br> services! More than 70% of patients apply for recommendations</span>
@@ -142,7 +150,57 @@
             </div>
          </div>
         </section>
+        <section class="container">
+            <h1 class="service-provide-title">WHAT <span>SERVICES </span> DO I PROVIDE?</h1>
+            <div class="services-provides">
+                <div class="wrapper-service-provide-left">
+                    <div class="service-provide service-provide--1
+">                   
+                        <h3 class="service-provide-left-title" >THERAPEUTIC HELP</h3>
+                        <p class="service-provide-left-paragraph">Treatment of caries, pulpitis, periodontitis, aesthetic restoration of teeth. Do not wait for acute manifestations of the disease. I will cure everything qualitatively </p>
+                    </div>
+                    <div class="service-provide service-provide--2">                   
+                        <h3 class="service-provide-left-title" >SURGICAL CARE </h3>
+                        <p class="service-provide-left-paragraph">Painless and atraumatic removal of teeth. We will give you the necessary recommendations for recovery taking into account all your features </p>
+                    </div>
+                    <div class="service-provide service-provide--3">                   
+                        <h3 class="service-provide-left-title" >PROFESSIONAL TOOTH CLEANING</h3>
+                        <p class="service-provide-left-paragraph">With the help of ultrasound and Air Flow technologies, I will flawlessly clean my teeth from hard and soft plaque, without damaging the enamel </p>
+                    </div>
+                </div>
+                <div class="radius container">
+                    <div class="radius-point radius-point--1"></div>
+                    <div class="radius-point radius-point--2"></div>
+                    <div class="radius-point radius-point--3"></div>
+                    <div class="radius-point radius-point--4"></div>
+                    <div class="radius-point radius-point--5"></div>
+                    <div class="radius-point radius-point--6"></div>
+                    <img class="big-tooth" src="./img/big-tooth.png" alt="tooth">
+                </div>
+                <div class="wrapper-service-provide-right">
+                    <div class="service-provide service-provide--4">                   
+                        <h3 class="service-provide-right-title" >PROSTHETICS CLEANING</h3>
+                        <p class="service-provide-right-paragraph">I cooperate with one of the best dental laboratories, so I guarantee that the prosthesis will be reliable, aesthetic and comfortable.</p>
+                    </div>
+                    <div class="service-provide service-provide--5">                   
+                        <h3 class="service-provide-right-title" >CHILDREN'S RECEPTION </h3>
+                        <p class="service-provide-right-paragraph">No stress, no pain. Reception is based on understanding the desires, needs, experiences of a small patient </p>
+                    </div>
+                    <div class="service-provide service-provide--6">                   
+                        <h3 class="service-provide-right-title" >PLASMOTHERAPY</h3>
+                        <p class="service-provide-right-paragraph">Treatment of periodontal diseases. Allows you to restore the metabolic process, improve microcirculation and metabolism in tissue cells</p>
+                    </div>
+                </div>
+            </div>
+        </section>
+        <section class="notifications container">
+                <div class="notification">
+                    <div class="notification-trigon"></div>
+                    <span class="notification-message">The sooner you see a doctor, the cheaper it will cost.</span>
+                </div>
 
+
+        </section>
         <section class="registration container flexed-block">
             <form class="registration-form " name="registration"            method="POST" action="#">
                 <h2 class="make">Make an appointment</h2>
@@ -168,7 +226,7 @@
             </form>
         </section>
 
-        <section>
+        <section class="container">
         <div class="gallery">
             <picture>
                     <source type="image/webp" srcset=" ./img/Card1.webp " media="">
@@ -190,17 +248,25 @@
      </main>
 
         <footer>
-            <section class="section" >
+            <section class="section container" >
                 <div class="block-services"  >
                     <div class="block-logo-footer" >
                         <img class="img-logo-footer" src="./icons/tooth.png" title="logo" alt="logo">
-                        <p class="title-logo-footer">DR.  NIKOTA TESLA<br> dentist</p> 
+                        <p class="title-logo-footer">DR.  NIKOTA TESLA <span>dentist</span></p> 
                    </div>
                    <div class="flex-home">
                             <div class="home">
-                                    <p>Home</p>
+                                    <!-- <p>Home</p>
                                     <p>Services</p>
-                                    <p><b>UA</b> | EN</p>
+                                    <p><b>UA</b> | EN</p> -->
+                                    <ul>
+                                        <li>Home</li>
+                                        <li>Services</li>
+                                        <ul class="home-language">
+                                            <li>UA</li>
+                                            <li>EN</li>
+                                        </ul>
+                                    </ul>
                             </div>
                             <div class="working">
                                     <p><b>Working hours:</b></p>
@@ -216,37 +282,46 @@
                         <p class="contacts-address">339 5th Ave, New York</p>
 
                      
-                        <a class="title-icons-footer" href="tel:%2B380999999">
+                        <!-- <a class="title-icons-footer" href="tel:%2B380999999">
                                <img class="img-margin" src="./icons/phone.png" title="tel" alt="tel">+38 (099) 999-99-99
-                        </a> 
+                        </a>  -->
+                        <div class="contact-icon-footer">                      
+                              <a class="title-icons-footer phone" href="tel:%2B380999999">+38 (099) 999-99-99
+                              </a>
 
-                <div class="icons-footer">
-                        <a href="viber://chat?number=%2B#">
-                            <img class="img-margin" src="./icons/viber.png" alt="viber">
-                        </a>
+                            <div class="icons-footer">
+                                    <a href="viber://chat?number=%2B#">
+                                        <img class="img-margin" src="./img/ViberWhite.svg" alt="viber">
+                                    </a>
 
-                        <a href="tg://#">
-                            <img class="img-margin" src="./icons/telegram.png" alt="telegram">
-                        </a>
-                        <a href="https://wa.me/%2B#">
-                            <img class="img-margin" src="./icons/whatsapp.png" alt="whatsapp">
-                        </a>
-                </div>
+                                    <a href="tg://#">
+                                        <img class="img-margin" src="./img/telegramWhite.svg" alt="telegram">
+                                    </a>
+                                    <a href="https://wa.me/%2B#">
+                                        <img class="img-margin" src="./img/whatsappWhite 1.svg" alt="whatsapp">
+                                    </a>
+                            </div>
 
-                        <a class="title-icons-footer"  href="https://www.instagram.com/#"> 
+                        <!-- <a class="title-icons-footer"  href="https://www.instagram.com/#"> 
                             <img class="img-margin" src="./icons/instagram.png" alt="">dr.Nik Tes
-                        </a>
+                        </a> -->
+
+                        <a class="title-icons-footer instagram"  href="https://www.instagram.com/#">dr.Nik Tes 
+                        </a> 
             
-                        <a class="title-icons-footer"  href="mailto:study.ua@gmail.com"> 
+                        <!-- <a class="title-icons-footer"  href="mailto:study.ua@gmail.com"> 
                             <img class="img-margin email" src="./icons/email.png" alt="email">dr.niktes@gmail.com
+                        </a> -->
+                        <a class="title-icons-footer mailto"  href="mailto:study.ua@gmail.com">dr.niktes@gmail.com
                         </a>
+                    </div>
+
                         <span class="copyright">&#169 Copyright 2022</</span>
                    </div>
             
             </section>
         </footer>
 
-      
 
 
 </body>
